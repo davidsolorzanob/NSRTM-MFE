@@ -1,0 +1,79 @@
+[{
+        "text": "Registro y Determinación de Deuda",
+        "icon": "inventory_2",
+        "children": [{
+                "text": "Contibuyente/Predio",
+                "icon": "category",
+                "routerLink": "/product/category"
+            },
+            {
+                "text": "D.J",
+                "icon": "layers",
+                "routerLink": "/product/sub-category"
+            },
+            {
+                "text": "Parámetros Tributarios",
+                "icon": "all_inbox",
+                "routerLink": "/product/manage"
+            },
+            {
+                "text": "Depuración de Datos",
+                "icon": "people",
+                "routerLink": "/product/manage"
+            }
+        ]
+    }, {
+        "text": "Determinación de Deuda",
+        "icon": "inventory_2",
+        "children": [{
+                "text": "Cálculo de la Base Imponible",
+                "icon": "category",
+                "routerLink": "/product/category"
+            },
+            {
+                "text": "Cálculo del Impuesto",
+                "icon": "layers",
+                "routerLink": "/product/sub-category"
+            },
+            {
+                "text": "Distribución de Costos de Arbitrios",
+                "icon": "all_inbox",
+                "routerLink": "/product/manage"
+            },
+            {
+                "text": "Emisión Masiva",
+                "icon": "all_inbox",
+                "routerLink": "/product/manage"
+            }
+        ]
+    }, {
+        "text": "Notificaciones",
+        "icon": "inventory_2",
+        "children": [{
+                "text": "Registro de Documentos a Notificar",
+                "icon": "category",
+                "routerLink": "/product/category"
+            },
+            {
+                "text": "Control de Envió de Docuemntos",
+                "icon": "layers",
+                "routerLink": "/product/sub-category"
+            },
+            {
+                "text": "Control de Recepción de Documentos",
+                "icon": "all_inbox",
+                "routerLink": "/product/manage"
+            },
+            {
+                "text": "Registro de Resultados de la Notificación",
+                "icon": "all_inbox",
+                "routerLink": "/product/manage"
+            }
+        ]
+    },
+    {
+        "text": "Report",
+        "icon": "analytics",
+        "routerLink": "/reports"
+    }
+]

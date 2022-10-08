@@ -1,0 +1,62 @@
+/*  Clase para el Relacionado del contribuyente */
+import { RelacionadoDomicilio } from "./relacionadoDomicilio.models";
+export class Relacionado{
+    municipalidadId!: number;
+    contribuyenteNumero!: number;
+    relContribuyenteNumero!: number;
+    personaId!: number;
+    tipoRelacionadoId!: number;
+    docIdentidadId!: number;
+    fechaVigenciaInicial!: Date;
+    fechaVigenciaFinal!: Date;
+    fechaVigenciaInicialRela!: Date;
+    fechaVigenciaFinalRela!: Date;
+    estadoId!: number;
+    descDocIdentidadId!: string;
+    numDocIdentidad!: string;
+    apellidoPaterno!: string;
+    apellidoMaterno!: string;
+    nombres!:string;
+    razonSocial!:string;
+    nombreCompleto!:string;
+    fechaNacimiento!:string;
+    genero!:string;
+    fallecido!:number;
+    fechaFallecimiento!: Date;
+    estadoCivil!: number;
+    domicilioRelacionadoNumero!: number;
+    departamentoId!: number;
+    provinciaId!: number;
+    distritoId!: number;
+    tipoPredioId!: number;
+    viaDepartamentoId!: number;
+    viaProvinciaId!: number;
+    viaDistritoId!: number;
+    viaId!: number;
+    numero1!: number;
+    letra1!: string;
+    numero2!: number;
+    letra2!: string;
+    manzana!: string;
+    lote!: string;
+    subLote!: string;
+    zonaUrbanaId!: number;
+    subZonaUrbanaId!: number;
+    edificacionId!: number;
+    tipoInteriorId!: number;
+    descripcionInterior!: string;
+    ingreso!: string;
+    piso!: string;
+    kilometro!: string;
+    referencia!: string;
+    latitud!: string;
+    longitud!: string;
+    descripcionDomicilio!: string;
+    estructurado!: string;
+    fuenteInformacionId!: number;
+    usuarioCreacion!: number;
+    terminalCreacion!: string;
+    tipoZonaUrbanaId!: number;
+}
+
+

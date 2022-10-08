@@ -1,0 +1,10 @@
+$whiteColor: white;
+$d55Color: #CF2C30;
+.toolbar {
+    color: $whiteColor;
+    background-color: $d55Color;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1000;
+}

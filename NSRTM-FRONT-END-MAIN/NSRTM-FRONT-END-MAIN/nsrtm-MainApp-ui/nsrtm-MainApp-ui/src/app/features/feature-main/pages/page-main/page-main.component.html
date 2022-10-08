@@ -1,0 +1,17 @@
+<section>
+    <div class="sidebar-container">
+        <mat-toolbar color="warn" class="sidebar-toolbar">
+            <button mat-icon-button (click)="snav.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+        </mat-toolbar>
+        <mat-sidenav-container class="sidebar-sidenav-container">
+            <mat-sidenav #snav mode="side" fixedTopGap="56" opened="true">
+                <nsrtm-sidebar></nsrtm-sidebar>
+            </mat-sidenav>
+            <mat-sidenav-content class="router-container">
+                <router-outlet></router-outlet>
+            </mat-sidenav-content>
+        </mat-sidenav-container>
+    </div>
+</section>
